@@ -32,4 +32,4 @@ Deployment: Vercel (frontend), Heroku/DigitalOcean (backend)
 
 Why This Project :-
 
-This project offers a unique twist on movie management by adding a unique feature mood-based recommendations, making it more preferrable and relatable. It combines core full-stack development skills like CRUD operations, API integration, and user authentication, while also providing great user experience with movie trivia and mood-driven suggestions which will feel like the app is very personal to users .
+This project offers a unique twist on movie management by adding a unique feature mood-based recommendations, making it more preferrable and relatable. It combines core full-stack development skills like CRUD operations, API integration, and user authentication, while also providing great user experience with movie trivia and mood-driven suggestions which will feel like the app is very personal to users . This is the Project for endpoint
