@@ -1,18 +1,14 @@
-const express = require('express');
+const express = require("express");
+const connectDatabase = require("./db/Database"); 
+const itemRoutes = require("./routes/dataItem");
+require("dotenv").config();
+
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 5000;
 
-app.get('/',(req,res)=>{
-    res.send({
-        "Routes":"/ping"
-    
-    })
-})
+connectDatabase(); 
+app.use(express.json()); 
 
-app.get('/ping', (req,res) => {
-    res.send('pong');
-});
+app.use("/item", itemRoutes); 
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
