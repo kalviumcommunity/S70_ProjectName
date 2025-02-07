@@ -1,4 +1,5 @@
 {
+ feature/crud-routes
   "name": "s70_projectname",
   "version": "1.0.0",
   "description": "Project Title :- Movie Watchlist Manager",
@@ -15,5 +16,30 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.9.5"
+=======
+  "name": "asap-project",
+  "version": "1.0.0",
+  "description": "A project setup for ASAP milestone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S70_ProjectName.git"
+  },
+  "keywords": [
+    "marketing",
+    "asap"
+  ],
+  "author": "saideep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S70_ProjectName/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S70_ProjectName#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+ feature/asap-init
   }
 }
