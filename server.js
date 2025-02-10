@@ -11,4 +11,4 @@ app.use(express.json());
 
 app.use("/item", itemRoutes); 
 
-app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running successfullt on port http://localhost:${PORT}`));
